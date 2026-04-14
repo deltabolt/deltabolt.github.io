@@ -1,0 +1,153 @@
+body
+{
+    background-color: rgb(25, 16, 43);
+    /* background-image: url("your_image_url.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;  */
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Puts the video behind other content */
+    object-fit: cover; /* Ensures the video covers the entire area without distortion */
+}
+
+h1
+{
+    color:rgb(255, 255, 255)
+}
+
+p
+{
+    margin: 20px;
+    color:rgb(217, 236, 250);
+}
+
+.p2
+{
+    color:rgb(255, 255, 255);
+}
+
+.topnav
+{
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+.topnav a
+{
+    float: left;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+}
+
+.topnav a.home
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.topnav a:hover
+{
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav-right 
+{
+  float: right;
+}
+
+.scroll-container {
+    overflow-x: hidden; 
+    overflow-y: hidden; 
+
+    text-align: center;
+    background-color: rgba(20, 17, 22, 0.5);
+    border: 3px solid #ccc;
+    margin: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 25px;
+}
+
+.header-container {
+    overflow-x: hidden; 
+    overflow-y: hidden;
+
+    text-align: center;
+    font-size: 18px;
+
+    background-color: rgba(20, 17, 22, 0.75);
+    border: 3px solid #8eafe8;
+    margin: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title-container {
+    overflow-x: hidden; 
+    overflow-y: hidden;
+
+    text-align: left;
+    font-size: 18px;
+
+    background-color: rgba(20, 17, 22, 0.75);
+    border: 3px solid #8c7dec;
+    margin: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title-container p
+{
+    padding: 0px;
+}
+
+.subtext {
+    text-align: right;
+    font-size: 12px;
+    padding: 0px;
+}
+
+.portrait {
+    height: 25%;
+    width: 25%;
+}
+
+.aboutme-container {
+    overflow-x: hidden; 
+    overflow-y: hidden;
+
+    text-align: left;
+    font-size: 18px;
+
+    background-color: rgba(20, 17, 22, 0.75);
+    border: 3px solid #8c7dec;
+    margin: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+a:link, a:visited {
+  background-color: #5a43ef;
+  color:rgb(217, 236, 250);
+  padding: 5px 10px;
+  margin-left: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(199, 158, 226);
+}
