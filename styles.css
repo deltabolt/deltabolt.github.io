@@ -2,10 +2,16 @@
     font-family: 'DSFont';
     src: url('fonts/sm64ds-text-editor-usa.otf') format(opentype);
 }
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter-VariableFont_opsz\,wght.ttf') format(TTF);
+}
+
 body
 {
     background-color: rgb(25, 16, 43);
-    font-family: 'DSFont', sans-serif;
+    font-family: "Inter", sans-serif;
     /* background-image: url("your_image_url.jpg");
     background-repeat: no-repeat;
     background-position: center;
