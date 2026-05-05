@@ -79,8 +79,7 @@ p
 }
 
 .scroll-container {
-    overflow-x: hidden; 
-    overflow-y: hidden; 
+    overflow: auto;
 
     text-align: center;
     background-color: rgba(20, 17, 22, 0.5);
@@ -91,9 +90,7 @@ p
     margin-bottom: 50px;
     padding-top: 25px;
 
-    min-width: 800px;
-    justify-content: center;
-    align-items: center;
+    min-width: 900px;
 }
 
 .header-container {
