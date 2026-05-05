@@ -85,10 +85,15 @@ p
     text-align: center;
     background-color: rgba(20, 17, 22, 0.5);
     border: 3px solid #ccc;
-    margin: 300px;
+    margin-left: 300px;
+    margin-right: 300px;
     margin-top: 50px;
     margin-bottom: 50px;
     padding-top: 25px;
+
+    min-width: 800px;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-container {
