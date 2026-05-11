@@ -8,6 +8,11 @@
     src: url('fonts/Inter-VariableFont_opsz\,wght.ttf') format(TTF);
 }
 
+html {
+  font-size: 62.5%; /* 62.5% of 16px = 10px */
+}
+
+
 body
 {
     background-color: rgb(25, 16, 43);
@@ -48,22 +53,22 @@ p
 .topnav
 {
     overflow: hidden;
-    padding: 20px 10px;
+    padding: 2rem 1rem;
 }
 
 .topnav a
 {
     float: left;
     text-align: center;
-    padding: 12px;
+    padding: 1.2rem;
     text-decoration: none;
-    font-size: 18px; 
-    line-height: 25px;
+    font-size: 1.6rem; 
+    line-height: 2.5rem;
 }
 
 .topnav a.home
 {
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 
@@ -84,13 +89,11 @@ p
     text-align: center;
     background-color: rgba(20, 17, 22, 0.5);
     border: 3px solid #ccc;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-top: 25px;
-
-    min-width: 900px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 5vh;
 }
 
 .header-container {
@@ -98,13 +101,13 @@ p
     overflow-y: hidden;
 
     text-align: center;
-    font-size: 18px;
+    font-size: 1.6rem;
 
     background-color: rgba(20, 17, 22, 0.75);
-    border: 3px solid #8eafe8;
-    margin: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    border: .3rem solid #8eafe8;
+    margin: 10vw;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .title-container {
@@ -112,50 +115,32 @@ p
     overflow-y: hidden;
 
     text-align: left;
-    font-size: 18px;
+    font-size: 1.6rem;
 
     background-color: rgba(20, 17, 22, 0.75);
-    border: 3px solid #8c7dec;
-    margin: 200px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    border: .3rem solid #8c7dec;
+    margin: 10vw;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .title-container p
 {
-    padding: 0px;
+    padding: 0rem;
 }
 
 .subtext {
     text-align: right;
-    font-size: 12px;
-    padding: 0px;
-}
-
-.portrait {
-    height: 25%;
-    width: 25%;
-}
-
-.aboutme-container {
-    overflow-x: hidden; 
-    overflow-y: hidden;
-
-    text-align: left;
-    font-size: 18px;
-
-    background-color: rgba(20, 17, 22, 0.75);
-    border: 3px solid #8c7dec;
-    margin: 150px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    font-size: 1.2rem;
+    padding: 0rem;
 }
 
 a:link, a:visited {
   background-color: #5a43ef;
   color:rgb(217, 236, 250);
-  padding: 5px 10px;
-  margin-left: 15px;
+  padding: .5rem 1rem;
+  font-size: 1.8rem;
+  margin-left: 1.5rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -163,4 +148,28 @@ a:link, a:visited {
 
 a:hover, a:active {
   background-color: rgb(199, 158, 226);
+}
+
+.bar-divider {
+    width: 60vw;
+    height: 5px;
+}
+
+.misc-img {
+    width: 100%;
+    max-width: 28rem; /* Limits size to 560px equivalent */
+    height: auto;
+}
+
+iframe {
+    width: 90%;
+    max-width: 56rem; /* Limits size to 560px equivalent */
+    aspect-ratio: 16 / 9;
+    height: auto;
+}
+
+.thumbnail {
+    width: 90%;
+    max-width: 56rem; /* Same as Youtube Video equivalent */
+    height: auto;
 }
