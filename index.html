@@ -59,7 +59,7 @@
             </div>
             <div class="title-container">
                 <p>ACTION ADVENTURE PLATFORMER: Banana Cowboy - The Wild Bunch (work in progress)</p>
-                <p>Betrayed by his friends during a botched train heist, Banana Cowboy reinvents himself as a deputy on the tiny planet of Durian Gap. Life is good out on the galactic frontier… until the past comes knocking. Now, Banana Cowboy races to catch his former comrades before the law can catch him.</p>
+                <p>Betrayed by his friends during a botched train heist, Banana Cowboy reinvents himself as a deputy on the tiny planet of Durian Gap. Life is good out on the galactic frontier… until the past comes knocking. Now, Banana Cowboy races to catch his former comrades before the law can catch him</p>
                 <p>(made in unreal engine 5)</p>
                 <p>Contributions include:<br><br>
                     - Creating stylized shaders according to artistic needs<br><br>
@@ -81,7 +81,7 @@
             </div>
             <div class="title-container">
                 <p>FIRST PERSON SURVIVAL HORROR GAME: STOMACH (2025)</p>
-                <p>STOMACH is a first-person survival horror cooking game located in a cruise ship with PS1 inspired graphics to capture that retro horror feeling. Your task is to read a food order, search for food ingredients, and make it back safely to the kitchen to cook your ingredients before time runs out.  </p>
+                <p>STOMACH is a first-person survival horror cooking game located in a cruise ship with PS1 inspired graphics to capture that retro horror feeling. Your task is to read a food order, search for food ingredients, and make it back safely to the kitchen to cook your ingredients before time runs out</p>
                 <p>(made in unity engine)</p>
                 <p>Contributions include:<br><br>
                     - Implementing several rendering features to achieve our desired artistic goals while meeting performance benchmarks<br><br>
@@ -101,7 +101,7 @@
             </div>
             <div class="title-container">
                 <p>ACTION ADVENTURE PLATFORMER: Banana Cowboy (2024)</p>
-                <p>The original Banana Cowboy game! Play as Banana Cowboy and adventure in fruit-themed universe, rescuing your people from your evil twin who has taken over the Banana Kingdom. Use your trusty lasso and spaceship horse to travel to the Orange Biker and Blueberry Pirate planets and save the universe from the Evil King! </p>
+                <p>The original Banana Cowboy game! Play as Banana Cowboy and adventure in fruit-themed universe, rescuing your people from your evil twin who has taken over the Banana Kingdom. Use your trusty lasso and spaceship horse to travel to the Orange Biker and Blueberry Pirate planets and save the universe from the Evil King</p>
                 <p>(made in unity engine)</p>
                 <p>Contributions include:<br><br>
                     - Creating character and environmental shaders<br><br>
@@ -109,6 +109,27 @@
                     - Benchmarking the graphical performance of our game using the Unity Profiler and implementing a frustum-culling solution<br><br>
                 </p>
                 <p>Check out the game here: <a href="https://store.steampowered.com/app/2962650/Banana_Cowboy/" target="_blank">steam page</a> <a href="https://jkump1.itch.io/banana-cowboy" target="_blank">itch.io page</a></p>
+            </div>
+            <!-- game -->
+            <img src="blue-divider.gif" class="bar-divider">  
+            <br>
+            <br>
+            <br>
+            <div style="text-align: center;">
+                <img src="ProcTerrainGen.png" class="thumbnail" title="amogus">
+            </div>
+            <div class="title-container">
+                <p>TECH DEMO: Descent (2025)</p>
+                <p>Descent is my personal descent into learning procedural terrain generation techniques. It utilizes both hlsl and C# to procedurally generate noise based terrain with multiple optimizations to improve performance, and it's multiplayer :P</p>
+                <p>(made in unity engine)</p>
+                <p>Features include:<br><br>
+                    - Infinitely generating terrain, with generation modifiers controlled by scriptable objects in-engine<br><br>
+                    - Optimizations such as chunking, LODs, and chunk streaming to improve performance and memory management<br><br>
+                    - Renders the chunk borders between LOD changes at a higher resolution to help mask stitching<br><br>
+                    - Implemented multitheading when generating a new chunk or loading chunk data<br><br>
+                    - Implemented Steamworks networking API to allow friends with a build of the game to join eachother on Steam<br><br>
+                </p>
+                <p>Check out the git repo here: <a href="https://github.com/deltabolt/descent" target="_blank">github page</a> </p>
             </div>
             <!-- game end -->
             <!-- tools -->
@@ -120,8 +141,14 @@
                 <img src="HighlightStill.png" class="thumbnail" title="Highlight Shader Render :3">
             </div>
             <div class="title-container">
-                <p>UNITY RENDER FEATURE: Highlight Selection Outline</p>
-                <p>A selection outline Unity render feature. For Unity versions 6.0 onwards since they updated their render pipeline. Uses both shadergraph and hlsl code to create a seamless post-processing highlight outline.</p>
+                <p>UNITY RENDER FEATURE: Highlight Selection Outline (2026)</p>
+                <p>A selection outline Unity render feature. For Unity versions 6.0 onwards since they updated their render pipeline. Uses both shadergraph and hlsl code to create a seamless post-processing highlight outline</p>
+                <p>Features include:<br><br>
+                    - The outline renderer feature, which includes passes for masking the highlighted objects and then a blur -> sharpen pass to create the outline<br><br>
+                    - The ability to dictate a mask of what layers are targeted by the render feature<br><br>
+                    - The ability to make outlines ignore scene depth<br><br>
+                </p>
+
                 <p>Check out the git repo here: <a href="https://github.com/deltabolt/URP-highlight-outline" target="_blank">github page</a></p>
             </div>
             <!-- tools end -->
