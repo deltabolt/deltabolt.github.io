@@ -135,6 +135,13 @@ p
     padding: 0rem;
 }
 
+.caption {
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 0rem;
+    margin-top: 0.3rem;
+}
+
 a:link, a:visited {
   background-color: #5a43ef;
   color:rgb(217, 236, 250);
