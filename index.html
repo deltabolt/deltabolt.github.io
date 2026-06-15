@@ -33,7 +33,7 @@
                     Welcome to Joaquin Niles' portfolio website :3c
                     <br>
                     I'm a technical artist that focuses on stylized 3D aesthetics
-                        <p style="text-align: left;">
+                    <p style="text-align: left;">
                         Having gone through the game development and design program, I have been through a multitude of rigorous classes meant to prepare me for industry. 
                         My experience being a technical artist throughout my time at UT and after has allowed me to hone my skills in shader development, creating visual effects, optimizing assets and scenes, tooling, and bridging the gap between art and programming. 
                         <br>
@@ -41,7 +41,7 @@
                         Besides working on games, I like working on random stylized scenes that just pop in my head (like the one you're seeing in the background). 
                         Its my philosophy that while realistic graphics have their place within certain games, stylized graphics are one of the big differentiators of games today.
                         My work reflects this philosophy as all my projects are heavily stylized or are meant to aid people wanting stylized graphics.
-                        </p>
+                    </p>
                     <p>Check out my games and projects below</p>
                     <p class="subtext">
                         please enjoy your stay
@@ -96,6 +96,31 @@
                 <p>Check out the game here: <a href="https://store.steampowered.com/app/3843830/Stomach/" target="_blank">steam page</a> </p>
             </div>
             <!-- game -->
+            <img src="blue-divider.gif" class="bar-divider">  
+            <br>
+            <br>
+            <br>
+            <div style="text-align: center;">
+                <img src="ProcTerrainGen.png" class="thumbnail" title="procedurally generated terrain in game">
+                <p class="caption"> procedurally generated terrain as it looks in game </p>
+                <br>
+                <img src="assets/chunkLOD.gif" class="thumbnail" title="terrain chunk lods visualized using wireframe mode">
+                <p class="caption"> terrain chunk lods visualized using wireframe mode </p>
+            </div>
+            <div class="title-container">
+                <p>TECH DEMO: Descent (2025)</p>
+                <p>Descent is my personal descent into learning procedural terrain generation techniques. It utilizes both hlsl and C# to procedurally generate noise based terrain with multiple optimizations to improve performance, and it's multiplayer :P</p>
+                <p>(made in unity engine)</p>
+                <p>Features include:<br><br>
+                    - Infinitely generating terrain, with generation modifiers controlled by scriptable objects in-engine<br><br>
+                    - Optimizations such as chunking, LODs, and chunk streaming to improve performance and memory management<br><br>
+                    - Renders the chunk borders between LOD changes at a higher resolution to help mask stitching<br><br>
+                    - Implemented multitheading when generating a new chunk or loading chunk data<br><br>
+                    - Implemented Steamworks networking API to allow friends with a build of the game to join eachother on Steam<br><br>
+                </p>
+                <p>Check out the git repo here: <a href="https://github.com/deltabolt/descent" target="_blank">github page</a> </p>
+            </div>
+            <!-- game -->
             <img src="blue-divider.gif" class="bar-divider">
             <br>
             <br>
@@ -115,28 +140,6 @@
                 </p>
                 <p>Check out the game here: <a href="https://store.steampowered.com/app/2962650/Banana_Cowboy/" target="_blank">steam page</a> <a href="https://jkump1.itch.io/banana-cowboy" target="_blank">itch.io page</a></p>
             </div>
-            <!-- game -->
-            <img src="blue-divider.gif" class="bar-divider">  
-            <br>
-            <br>
-            <br>
-            <div style="text-align: center;">
-                <img src="ProcTerrainGen.png" class="thumbnail" title="amogus">
-                <p class="caption"> procedurally generated terrain as it looks in game </p>
-            </div>
-            <div class="title-container">
-                <p>TECH DEMO: Descent (2025)</p>
-                <p>Descent is my personal descent into learning procedural terrain generation techniques. It utilizes both hlsl and C# to procedurally generate noise based terrain with multiple optimizations to improve performance, and it's multiplayer :P</p>
-                <p>(made in unity engine)</p>
-                <p>Features include:<br><br>
-                    - Infinitely generating terrain, with generation modifiers controlled by scriptable objects in-engine<br><br>
-                    - Optimizations such as chunking, LODs, and chunk streaming to improve performance and memory management<br><br>
-                    - Renders the chunk borders between LOD changes at a higher resolution to help mask stitching<br><br>
-                    - Implemented multitheading when generating a new chunk or loading chunk data<br><br>
-                    - Implemented Steamworks networking API to allow friends with a build of the game to join eachother on Steam<br><br>
-                </p>
-                <p>Check out the git repo here: <a href="https://github.com/deltabolt/descent" target="_blank">github page</a> </p>
-            </div>
             <!-- game end -->
             <!-- tools -->
             <img src="blue-divider.gif" class="bar-divider">  
@@ -145,13 +148,13 @@
             <br>
             <div style="text-align: center;">
                 <img src="HighlightStill.png" class="thumbnail" title="Highlight Shader Render :3">
-                <p class="caption"> open source optimized highlight outline render feature solution for Unity 6.0+ </p>
+                <p class="caption"> open source optimized highlight outline render-feature solution for Unity 6.0+ </p>
             </div>
             <div class="title-container">
-                <p>UNITY RENDER FEATURE: Highlight Selection Outline (2026)</p>
-                <p>A selection outline Unity render feature. For Unity versions 6.0 onwards since they updated their render pipeline. Uses both shadergraph and hlsl code to create a seamless post-processing highlight outline</p>
+                <p>UNITY RENDER-FEATURE: Highlight Selection Outline (2026)</p>
+                <p>A selection outline Unity render-feature. For Unity versions 6.0 onwards since they updated their render pipeline. Uses both shadergraph and hlsl code to create a seamless post-processing highlight outline</p>
                 <p>Features include:<br><br>
-                    - The outline renderer feature, which includes passes for masking the highlighted objects and then a blur -> sharpen pass to create the outline<br><br>
+                    - The outline render-feature, which includes passes for masking the highlighted objects and then a blur -> sharpen pass to create the outline<br><br>
                     - The ability to make a mask of what render layers are targeted by the render feature<br><br>
                     - The ability to make outlines ignore scene depth<br><br>
                 </p>
