@@ -186,21 +186,27 @@ iframe {
 
 .thumbnail {
     width: 90%;
+    min-width: 0%;
     max-width: 39.2rem; /* Same as Youtube Video equivalent */
+    align-self: center;
     display: inline-flex;
-    height: auto;
+    height: auto; 
 }
 
 .thumbnail-detail {
     width: 90%;
+    min-width: 0%;
     max-width: 56rem; /* Same as Youtube Video equivalent */
+    align-self: center;
     display: inline-flex;
     height: auto;
 }
 
 .thumbnail-wide {
     width: 90%;
+    min-width: 0%;
     max-width: 112rem; /* Same as Youtube Video equivalent */
+    align-self: center;
     display: inline-flex;
     height: auto;
 }
@@ -219,11 +225,12 @@ iframe {
 }
 
 .image-collection {
-    display: flex;
+    display: inline-flex;
     gap: 1.5rem;
     align-items: center;
     padding-left: 2rem;
     padding-right: 2rem;
+    object-fit: contain;
 }
 
 /* small puter */
