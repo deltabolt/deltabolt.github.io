@@ -219,7 +219,7 @@ iframe {
 }
 
 .image-collection {
-    display: inline-flex;
+    display: flex;
     gap: 1.5rem;
     align-items: center;
     padding-left: 2rem;
