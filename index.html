@@ -33,7 +33,7 @@
                     Welcome to Joaquin Niles' portfolio website :3c
                     <br>
                     <br>
-                    I'm a technical artist that focuses on stylized non-photorealistic 3D aesthetics. My main focus is with shaders, vfx, and game optimization.
+                    I'm a technical artist that focuses on stylized non-photorealistic 3D art aesthetics. My main focus is with shaders, vfx, and game optimization.
                     <br>
                     <br>
                     Check out my games and projects below
@@ -48,14 +48,73 @@
             <br>
             <br>
             <div style="text-align: center;">
-                <img src="assets/beautiful-corner.png" class="thumbnail" title="banana cowboy beautiful corner concept">
+                <img src="assets/metallic-blending-day.png" class="thumbnail" title="clairen">
+                <p class="caption"> Rivals 2 character Clairen with improved shading under harsh warm lighting </p>
+                <div class="image-collection">
+                    <img src="assets/unoptimized-blending.png" class="thumbnail-detail" title="unreal engine color blending comparison">
+                    <img src="assets/optimized-blending.png" class="thumbnail-detail" title="unreal engine color blending comparison">
+                </div>
+                <p class="caption"> default softlight color blending versus optimized version made by me</p>
+                <div class="image-collection">
+                    <img src="assets/metallic-noblending.png" class="thumbnail" title="metallic lighting color blending close-up">
+                    <img src="assets/metallic-blending-night.png" class="thumbnail" title="metallic lighting color blending close-up">
+                </div>
+                <p class="caption"> metallic lighting color blending disabled versus enabled under harsh cool lighting</p>
+            </div>
+            <div class="title-container">
+                <p>RIVALS OF AETHER 2 STEAM WORKSHOP CONTENT</p>
+                <p>Major character lighting rework and optimization</p>
+                <p>(made in unreal engine 5)</p>
+                <p>Contributions include:<br><br>
+                    - Researched and implemented HLSL hooks to grab scene lighting data without engine modifications or changing proprietary blueprints or code<br><br>
+                    - Wrote shaders to blend stage lighting with character models without darkening the mesh in order to keep readability<br><br>
+                    - Significantly improved rendering times by optimizing the default Unreal Engine color blending algorithms to avoid unnecessary branching GPU calculations<br><br>
+                    - Reworked metallic rendering to reflect the scene lighting without breaking the original artistic direction<br><br>
+                </p>
+            </div>
+            <!-- game -->
+            <img src="blue-divider.gif" class="bar-divider">  
+            <br>
+            <br>
+            <br>
+            <div style="text-align: center;">
+                <div class="image-collection">
+                    <img src="assets/orcane-rivals.gif" class="thumbnail" title="orcane performing his iconic dance">
+                    <img src="assets/cosmetic-ref.png" class="thumbnail" title="101 Orcane video reference snippet">
+                    <img src="assets/angry-chalkcane.png" class="thumbnail" title="angry Orcane 101, accurate to how he makes me feel in game">
+                </div>
+                <p class="caption"> default Orcane character model skin, 101 tutorial video reference image, and result</p>
+                <img src="assets/orcane-action.gif" class="thumbnail-detail" title="skin cosmetic demo">
+                <p class="caption"> 101 Orcane skin cosmetic in action </p>
+                <img src="assets/stable-projection-graph.png" class="thumbnail-wide" title="stable screen space projection shadergraph">
+                <p class="caption"> stable screen space projection shadergraph</p>
+            </div>
+            <div class="title-container">
+                <p>RIVALS OF AETHER 2 STEAM WORKSHOP CONTENT</p>
+                <p>Custom character skin cosmetic based on the character 101 tutorial videos</p>
+                <p>(made in unreal engine 5)</p>
+                <p>Contributions include:<br><br>
+                    - 4D detail map made by myself in substance designer<br><br>
+                    - Providing artistic control over shader features such as edge feathering and chalk density<br><br>
+                    - Stable projection for minimal detail map distortion with camera FOV changes<br><br>
+                    - Full compatibility with the color mapper, with chalkboard background colors included for easy palette creation<br><br>
+                </p>
+            </div>
+            <!-- game -->
+            <img src="blue-divider.gif" class="bar-divider">  
+            <br>
+            <br>
+            <br>
+            <div style="text-align: center;">
+                <img src="assets/beautiful-corner.png" class="thumbnail-detail" title="banana cowboy beautiful corner concept">
                 <p class="caption"> banana cowboy stylized art aesthetic concept with base shader reference on the right </p>
-                <br>
                 <img src="assets/unreal-toon-implementation.png" class="thumbnail" title="unreal engine toon shader with textures and maps applied">
                 <p class="caption"> banana cowboy current toon shader implementation </p>
-                <br>
-                <img src="assets/unreal-grass.gif" class="thumbnail" title="unreal engine stylized grass foliage in-game">
-                <p class="caption"> unreal engine stylized grass foliage in-game </p>
+                <img src="assets/unreal-grass.gif" class="thumbnail-detail" title="unreal engine stylized grass foliage in-game">
+                <p class="caption"> unreal engine stylized grass foliage in-game stress test </p>
+                <img src="assets/watercolor-landscape-grass.png" class="thumbnail-detail" title="watercolor style grass landscape shader">
+                <p class="caption"> watercolor stylized grass currently used in game. Implemented into landscape shader for texture painting </p>
+            </div>
             <div class="title-container">
                 <p>ACTION ADVENTURE PLATFORMER: Banana Cowboy - The Wild Bunch (work in progress)</p>
                 <p>Betrayed by his friends during a botched train heist, Banana Cowboy reinvents himself as a deputy on the tiny planet of Durian Gap. Life is good out on the galactic frontier… until the past comes knocking. Now, Banana Cowboy races to catch his former comrades before the law can catch him</p>
@@ -77,8 +136,12 @@
             <br>
             <br>
             <div style="text-align: center;">
-                <img src="assets/fish-fridge.gif" class="thumbnail" title="STOMACH psx concept scene">
+                <img src="assets/fish-fridge.gif" class="thumbnail-detail" title="STOMACH psx concept scene">
                 <p class="caption"> STOMACH psx shader and post-processing concept scene with rigged fish model in-engine </p>
+                <img src="assets/psx-vertex-snapping.png" class="thumbnail-wide" title="psx vertex snapping math">
+                <p class="caption"> psx style vertex snapping math </p>
+                <img src="assets/psx-water-vertex-displacement.png" class="thumbnail-wide" title="psx style procedural vertex displacement">
+                <p class="caption"> psx vertex displacement math for our water shader. Implemented to tile in world space to prevent seams</p>
             </div>
             <div class="title-container">
                 <p>FIRST PERSON SURVIVAL HORROR GAME: STOMACH (2025)</p>
@@ -86,6 +149,7 @@
                 <p>(made in unity engine)</p>
                 <p>Contributions include:<br><br>
                     - Implementing several rendering features to achieve our desired artistic goals while meeting performance benchmarks<br><br>
+                    - Fixing outdated shader code brought in from public repositories and updating for our engine version<br><br>
                     - Researching and re-implementing various PS1 hardware quirks for added authenticity<br><br>
                     - Implementing solutions for complex graphical effects using stencil buffers and script-material interactions<br><br>
                     - Creating a pipeline for artists to follow when creating assets or iterating on existing assets<br><br>
@@ -101,9 +165,8 @@
             <div style="text-align: center;">
                 <img src="ProcTerrainGen.png" class="thumbnail" title="procedurally generated terrain in-game">
                 <p class="caption"> procedurally generated terrain as it looks in-game </p>
-                <br>
-                <img src="assets/chunkLOD.gif" class="thumbnail" title="terrain chunk lods visualized using wireframe mode">
-                <p class="caption"> terrain chunk lods visualized using wireframe mode </p>
+                <img src="assets/chunkLOD.gif" class="thumbnail-detail" title="terrain chunk lods visualized using wireframe mode">
+                <p class="caption"> terrain chunk LOD polygon density visualized using wireframe mode </p>
             </div>
             <div class="title-container">
                 <p>TECH DEMO: Descent (2025)</p>
@@ -113,10 +176,10 @@
                     - Infinitely generating terrain, with generation modifiers controlled by scriptable objects in-engine<br><br>
                     - Optimizations such as chunking, LODs, and chunk streaming to improve performance and memory management<br><br>
                     - Renders the chunk borders between LOD changes at a higher resolution to help mask stitching<br><br>
-                    - Implemented multitheading when generating a new chunk or loading chunk data<br><br>
+                    - Implemented multithreading to separate gameplay and terrain rendering threads for performance<br><br>
                     - Implemented Steamworks networking API to allow friends with a build of the game to join eachother on Steam<br><br>
                 </p>
-                <p>Check out the git repo here: </p>
+                <p>Check out the source code at the git repo here: </p>
                 <div class="button-container"> <a href="https://github.com/deltabolt/descent" target="_blank">github </a> </div>
             </div>
             <!-- game -->
@@ -127,9 +190,8 @@
             <div style="text-align: center;">
                 <img src="assets/bc-stylized.png" class="thumbnail" title="banana cowboy (2024) stylized art showcase screenshot">
                 <p class="caption"> banana cowboy (2024) stylized art showcase screenshot </p>
-                <br>
-                <img src="assets/occlusion-unity.png" class="thumbnail" title="visualized occlusion culling data in-engine">
-                <p class="caption"> visualized occlusion culling data in-engine </p>
+                <img src="assets/occlusion-unity.png" class="thumbnail-detail" title="visualized occlusion culling data in-engine">
+                <p class="caption"> camera occlusion culling data visualized in-engine </p>
             </div>
             <div class="title-container">
                 <p>ACTION ADVENTURE PLATFORMER: Banana Cowboy (2024)</p>
@@ -138,7 +200,7 @@
                 <p>Contributions include:<br><br>
                     - Creating character and environmental shaders<br><br>
                     - Creating visual effects for the game<br><br>
-                    - Benchmarking the graphical performance of our game using the Unity Profiler and implementing a frustum-culling solution<br><br>
+                    - Benchmarking the graphical performance of our game using the Unity Profiler and implementing a frustum-culling solution to improve rendering times<br><br>
                 </p>
                 <p>Check out the game here: </p>
                 <div class="button-container"> <a href="https://store.steampowered.com/app/2962650/Banana_Cowboy/" target="_blank">steam </a> <a href="https://jkump1.itch.io/banana-cowboy" target="_blank">itch.io </a> </div>
@@ -150,23 +212,26 @@
             <br>
             <br>
             <div style="text-align: center;">
-                <img src="HighlightStill.png" class="thumbnail" title="Highlight Shader Render :3">
-                <p class="caption"> open source optimized highlight outline render-feature solution for Unity 6.0+ </p>
+                <img src="HighlightStill.png" class="thumbnail-detail" title="highlight shader render :3">
+                <p class="caption"> open source optimized highlight outline render feature solution for Unity 6.0+ </p>
+                <img src="assets/highlight-filter-pass.png" class="thumbnail-wide" title="highlight filter pass code">
+                <p class="caption"> a render texture is created using filter data that only shows objects to be highlighted with respect to depth settings</p>
+                <img src="assets/optimized-outline-desc.png" class="thumbnail-detail" title="render feature explanation">
+                <p class="caption"> render feature explanation as seen on my github </p>
             </div>
             <div class="title-container">
-                <p>UNITY RENDER-FEATURE: Highlight Selection Outline (2026)</p>
-                <p>A selection outline Unity render-feature. For Unity versions 6.0 onwards since they updated their render pipeline. Uses both shadergraph and hlsl code to create a seamless post-processing highlight outline</p>
+                <p>UNITY RENDER FEATURE: Lightweight Highlight Selection Outline (2026)</p>
+                <p>A lightweight selection outline Unity 6.0 render feature. Uses both shadergraph and hlsl code to create a seamless post-processing highlight outline</p>
                 <p>Features include:<br><br>
-                    - The outline render-feature, which includes passes for masking the highlighted objects and then a blur -> sharpen pass to create the outline<br><br>
+                    - Custom render feature optimized for highlighting objects that bypasses using expensive edge-detection algorithms<br><br>
                     - The ability to make a mask of what render layers are targeted by the render feature<br><br>
                     - The ability to make outlines ignore scene depth<br><br>
                 </p>
 
-                <p>Check out the git repo here: </p>
+                <p>Check out the source code at the git repo here: </p>
                 <div class="button-container"> <a href="https://github.com/deltabolt/URP-highlight-outline" target="_blank">github </a> </div>
             </div>
             <!-- tools end -->
-
             <img src="blue-divider.gif" class="bar-divider">
             <br>
             <br>

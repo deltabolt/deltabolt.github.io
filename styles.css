@@ -112,7 +112,7 @@ p
     border: .3rem solid #8eafe8;
     margin: 10vw;
     margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-bottom: 2.5vh;
 }
 
 .header-container p
@@ -149,7 +149,7 @@ p
     text-align: center;
     font-size: 1.6rem;
     padding: 0rem;
-    margin-top: 0.3rem;
+    margin-top: 1rem;
 }
 
 a:link, a:visited {
@@ -167,7 +167,7 @@ a:hover, a:active {
 }
 
 .bar-divider {
-    width: 80%;
+    width: 90%;
     height: 0.5rem;
 }
 
@@ -186,21 +186,47 @@ iframe {
 
 .thumbnail {
     width: 90%;
+    max-width: 39.2rem; /* Same as Youtube Video equivalent */
+    align-self: center;
+    display: inline-flex;
+    height: auto;
+}
+
+.thumbnail-detail {
+    width: 90%;
     max-width: 56rem; /* Same as Youtube Video equivalent */
+    align-self: center;
+    display: inline-flex;
+    height: auto;
+}
+
+.thumbnail-wide {
+    width: 100%;
+    max-width: 112rem; /* Same as Youtube Video equivalent */
+    align-self: center;
+    display: inline-flex;
     height: auto;
 }
 
 .top-button-container {
-  display: flex;
-  gap: 1.5rem;           
+    display: flex;
+    gap: 1.5rem;           
 }
 
 .button-container {
-  display: flex;
-  margin-top: 0rem;
-  margin-bottom: 2rem;
-  margin-left: 2rem;
-  gap: 1.5rem;           
+    display: flex;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    gap: 1.5rem;           
+}
+
+.image-collection {
+    display: inline-flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 /* small puter */
