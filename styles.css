@@ -187,7 +187,6 @@ iframe {
 .thumbnail {
     width: 90%;
     max-width: 39.2rem; /* Same as Youtube Video equivalent */
-    align-self: center;
     display: inline-flex;
     height: auto;
 }
@@ -195,15 +194,13 @@ iframe {
 .thumbnail-detail {
     width: 90%;
     max-width: 56rem; /* Same as Youtube Video equivalent */
-    align-self: center;
     display: inline-flex;
     height: auto;
 }
 
 .thumbnail-wide {
-    width: 100%;
+    width: 90%;
     max-width: 112rem; /* Same as Youtube Video equivalent */
-    align-self: center;
     display: inline-flex;
     height: auto;
 }
